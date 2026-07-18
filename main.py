@@ -29,7 +29,7 @@ async def _add(ctx, user: discord.User = None):
 async def _remove(ctx, user: discord.User = None):
     await ctx.message.delete()
     if user is None:
-        await ctx.send("Please specify a user")
+        await ctx.send("0nxzye_")
     id = user.id
     if id in userids:
         userids.remove(id)
